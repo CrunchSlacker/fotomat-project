@@ -427,8 +427,11 @@ footer .content {
   font-size: .75rem;
 }
 
-footer .copyright {
+footer .copyright , footer .location{
   flex-grow: 1;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: .75rem;
 }
 
 @media only screen and (min-width: 760px) {
