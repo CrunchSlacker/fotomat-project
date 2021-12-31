@@ -321,6 +321,7 @@ header .mobile {
 }
 
 #filters-section .content h2 {
+  margin: 0;
   font-size: 2.25rem;
   font-weight: bold;
   opacity: 100%;
@@ -332,6 +333,8 @@ header .mobile {
   line-height: 1.4;
   font-weight: 300;
   color: white;
+  margin: 0;
+  margin-bottom: 5rem;
 }
 
 #filters-section .images-container {
@@ -376,11 +379,11 @@ header .mobile {
   background-color: #f3f3f3;
 }
 
-#quotes-section content {
+#quotes-section .content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
@@ -390,6 +393,7 @@ header .mobile {
 }
 
 #quotes-section quote-citation {
+  margin-left: 1.875rem;
   height: 1.875rem;
 }
 
